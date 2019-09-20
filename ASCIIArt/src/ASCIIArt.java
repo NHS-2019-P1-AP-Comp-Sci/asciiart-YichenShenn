@@ -17,11 +17,58 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("                                           ████████████████████");
+		System.out.println("                                         ████  ██████████████████");
+		head();
+		head();
+		head();
+		
+		System.out.println("                                         ███████████\"\"\"\"\"\"\"\"");
+		System.out.println("                                         ███████████████████");
+		neck();
+		neck();
+		neck();
+		neck2();
+		neck2();
+		neck2();
+		System.out.println("                             ███████████████████████████████");
+		System.out.println("                             ███████████████████████   \\\\   \\\\");
+		System.out.println("                             ███████████████████████    \\\\   \\\\");
+		System.out.println("                             ███████████████████████   \\\\   \\\\");
+		body();
+		body();
+		body();
+		body();
+		System.out.println("                ██████████████████████████████████");
+		
+		System.out.println("       █████████████████████████████████████████");
+		System.out.println("██████████████████████████████████████████████");
+		System.out.println("       █████████████████████████████████████");
+		leg();
+		leg();
+		leg();
+		leg();
+		leg();
+		leg();
 	}
+	                    
+	public static void head() {
+		System.out.println("                                         ████████████████████████");
+		//20 blocks 
+	}
+	public static void neck() {
+		System.out.println("                                      █████████████");
+	}
+	public static void neck2() {
+		System.out.println("                                  █████████████████");
+	}
+	public static void body() {
+		System.out.println("                      ██████████████████████████████");
+	}
+	public static void leg() {
+		System.out.println("                ████████       ████████");
+	}
+
 }
